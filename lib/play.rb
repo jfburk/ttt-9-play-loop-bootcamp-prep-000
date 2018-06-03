@@ -39,6 +39,7 @@ def play(board)
   i=1
   until i == 9
     turn(board)
+    puts i
     i+=1
   end
 end
